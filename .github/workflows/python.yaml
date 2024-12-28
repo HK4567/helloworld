@@ -20,4 +20,4 @@ jobs:
                 pip install ping3
 
           - name: Run script 
-            run: python python/ping.py
+            run: sudo python python/ping.py
