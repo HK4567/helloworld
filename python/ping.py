@@ -9,7 +9,7 @@ color_default = "\033[0m"
 urls = []
 
 '''通过文本导入需要ping的域名'''
-with open("host.txt","r+") as file:
+with open("./python/host.txt","r+") as file:
     f = file.readlines()
 
 '''将域名后面的换行符去掉'''
