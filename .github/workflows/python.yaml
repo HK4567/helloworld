@@ -17,6 +17,9 @@ jobs:
           - name: Install dependencies 
             run: |
                 ls -al
+                ln -s ./python/host.txt host.txt
+                ls -al
+                tree .
                 pip install ping3
 
           - name: Run script 
