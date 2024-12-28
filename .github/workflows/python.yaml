@@ -15,8 +15,9 @@ jobs:
                 python-version: '3.12'
 
           - name: Install dependencies 
-            run:  ls -al
-                  pip install ping3
+            run: |
+                ls -al
+                pip install ping3
 
           - name: Run script 
             run: python python/ping.py
