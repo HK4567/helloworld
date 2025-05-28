@@ -1,7 +1,6 @@
-name: Python application 
+name: 执行Python代码
 on:
-  workflow_dispatch:
-#on: [push, pull_request] 
+  workflow_dispatch: 
 
 jobs: 
     build: 
@@ -17,8 +16,8 @@ jobs:
 
           - name: Install dependencies 
             run: |
-                ls -al
                 sudo pip install ping3
 
           - name: Run script 
-            run: sudo python python/ping.py
+            run: |
+                sudo python python/ping.py
