@@ -1,7 +1,8 @@
-```
-#!/bin/bash
 
-echo "hello world"
+```
+#!/bin/python3
+
+print("hello,world")
 ```
 # helloworld
 ##  helloworld
