@@ -21,3 +21,4 @@ jobs:
           - name: Run script 
             run: |
                 sudo python python/ping.py
+                python3 python/demo_print.py
