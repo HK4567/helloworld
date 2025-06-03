@@ -7,7 +7,8 @@ print("hello,world")
 # helloworld
 ##  helloworld
 ### helloworld
-![图片](https://cn.bing.com/images/search?q=picture&id=1090C82488207CF741D21BC46F7F3C2A5671FD02&FORM=IACFIR)
+![图片](https://raw.githubusercontent.com/HK4567/helloworld/a/pictrues/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250603181444.jpg "微信图片")
+
 [百度一下](https://www.baidu.com)
 
 ============
