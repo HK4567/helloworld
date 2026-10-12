@@ -62,7 +62,7 @@ def map_recognition():
         os.remove(_.split("/")[-1])
     _url = "https://api.jfbym.com/api/YmServer/customApi"
     _data = {
-            'token': 'GVy_zUhURyS3hwwDD0sWVF0DNEg6_cCvXh5EbbuHnUc',
+            'token': '填自己的',
             'type': '31111',
             'image': image_base[3],
             'image_label1': image_base[0],
